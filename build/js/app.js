@@ -14,6 +14,6 @@ function fetchWeatherData() {
         });
 }
 
-// Add click event listener to the button
+// event listener
 const fetchButton = document.getElementById('btn-view-data');
 fetchButton.addEventListener('click', fetchWeatherData);
